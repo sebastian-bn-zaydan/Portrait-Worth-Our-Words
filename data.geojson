@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"NAME": "Eli and Edythe Broad Art Museum", "COMMENT": "talk about stuff here"}, "geometry": { "type": "Point","coordinates": [-84.47685837825675,42.73283945248608] } },
+{"type": "Feature", "id": 1, "properties": {"NAME": "MSU Museum", "COMMENT": "talk about stuff here"}, "geometry": { "type": "Point","coordinates": [-84.4827264732189,42.73082591300017] } }
+]}
