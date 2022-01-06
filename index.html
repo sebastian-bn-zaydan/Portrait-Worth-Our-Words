@@ -10,7 +10,7 @@
             width: 1401px;
             height: 463px;
         }
-        </style>        
+        </style>
         <!---- MAP STUFF -->
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/qgis2web.css">
@@ -18,7 +18,7 @@
 		<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-        
+
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
         <meta name="viewport" content="width=device-width" />
 
@@ -97,7 +97,7 @@
                                 <h5> Runaway Slave Posters as an Artistic and Historic Artifact</h5>
                                 <div class="buttons">
                                     <a href="http://www.creative-tim.com/product/awesome-landing-page" class="btn btn-fill btn-neutral">
-                                    <i class="fa fa-download"></i> Download A Sample
+                                    <i class="fa fa-download"></i> Thesis
                                     </a>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@
                 <div class="container text-center">
                     <h4 class="header-text">Happy Customers</h4>
                     <p>
-                        Designing in Photoshop became a trend. Change, save, redo. Change, save, redo. After searching thoroughly for an alternative to create something great, it was clear that there weren’t any great solutions or intentions by anyone to create a pixel-perfect template for anyone to use. We don't do pixel-perfect, we focus on client-perfect projects.<br>
+                        A Portrait is Worth Our Words is about humanizing the Black slaves whose stories will never be fully known and providing a platform for the ordinary Black elders, who lived through Jim Crow and defacto Segregation, to share their personal experiences of that time.<br>
                     </p>
                     <div class="logos">
                         <ul class="list-unstyled">
@@ -143,7 +143,7 @@
 								var map = L.map('map', {
 									zoomControl:true, maxZoom:28, minZoom:1
 								}).fitBounds([[42.7096403224063,-84.52306572661463],[42.73586213771844,-84.41474741596215]]);
-								
+
 								var url = 'data.geojson';  // my GeoJSON data source, in the same folder as my HTML file.
 								var  geojsonMarkerOptions = {
 									color: 'red',
@@ -154,16 +154,16 @@
 
 								function forEachFeature(feature, layer) {
 										var popupContent = "<h3>The " + feature.properties.NAME + "<br></h3>";
-										console.log(feature.properties.NAME);				
+										console.log(feature.properties.NAME);
 										if (feature.properties && feature.properties.COMMENT) {
 											popupContent += feature.properties.COMMENT;
 										}
 										layer.bindPopup(popupContent);
 								};
 								var bbTeam = L.geoJSON(null, {
-										onEachFeature: forEachFeature, 
+										onEachFeature: forEachFeature,
 										pointToLayer: function (feature, latlng) {
-											console.log(latlng);	
+											console.log(latlng);
 											return L.marker(latlng, geojsonMarkerOptions);
 										}
 								});
@@ -401,7 +401,7 @@
         </div>
         <!--
         <div class="fixed-plugin">
-			
+
             <div class="dropdown open">
                 <a href="#" data-toggle="dropdown">
                 <i class="fa fa-cog fa-2x"> </i>
