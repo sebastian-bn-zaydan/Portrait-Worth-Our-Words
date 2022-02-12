@@ -1,4 +1,4 @@
-# [The Problem with Archives: A Portrait Is Worth Our Words](https://sebastian-bn-zaydan.github.io/Portrait-Worth-Our-Words/)
+# [The Problem with Archives: A Portrait Is Worth Our Words](https://problemwitharchives.art/)
 
 This website is for the MFA Thesis work of Lillian Young. 
 
