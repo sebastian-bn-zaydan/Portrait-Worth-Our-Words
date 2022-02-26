@@ -990,6 +990,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 }
 .section-no-padding{
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -1126,7 +1127,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 400px;
     text-align: center;
    }
  
@@ -1139,7 +1140,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     -o-transform:      translateX(-50%);
     transform:         translateX(-50%);
     z-index: 20;
-    top: 150px;
+    top: 20%;
 
   }
   .landing-page .section-no-padding .parallax .info h1{
