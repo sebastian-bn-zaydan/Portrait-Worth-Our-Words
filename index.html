@@ -7,8 +7,8 @@
         <title>Portrait Worth Our Words</title>
         <style>
         #map {
-            width: 1401px;
-            height: 463px;
+            width: 1400px;
+            height: 464px;
         }
         </style>
         <!---- MAP STUFF -->
@@ -146,8 +146,8 @@
 								function forEachFeature(feature, layer) {
 										var popupContent = "<h3>The " + feature.properties.NAME + "<br></h3>";
 										console.log(feature.properties.NAME);
-										if (feature.properties && feature.properties.COMMENT) {
-											popupContent += feature.properties.COMMENT;
+										if (feature.properties && feature.properties.ADD) {
+											popupContent += '\n<b>Address:</b> '+ feature.properties.ADD + '\n<b>Schedule:</b> '+ feature.properties.TIME;
 										}
 										layer.bindPopup(popupContent);
 								};
@@ -189,7 +189,7 @@
 					</div>
 				</div>
 			</div>
-            <div class="section section-presentation">
+            <div class="section section-gray section-presentation">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 hidden-xs">
@@ -337,13 +337,13 @@
                 </div>
             </div>
             <div class="section section-no-padding">
-                <div class="parallax filter-gradient blue" data-color="blue">
+                <div class="parallax">
                     <div class="parallax-background">
                         <img class ="parallax-background-image" src="assets/img/showcases/showcase-2/runaways pano.jpeg">
                     </div>
                     <div class="info">
                         <h1>Special Thanks</h1>
-                        <p>Beautiful multipurpose bootstrap landing page.</p>
+                         <p>To all the departments and faculty at MSU who helped provide a location for the Runaways. Your support and enthusiasm for this project is greatly appreciated. </p>
 
                     </div>
                 </div>
@@ -386,7 +386,7 @@
                         </a>
                     </div>
                     <div class="copyright">
-                        &copy; 2016 <a href="http://www.creative-tim.com">Creative Tim</a>, made with love
+                        &copy; Original template 2016 <a href="http://www.creative-tim.com">Creative Tim</a>
                     </div>
                 </div>
             </footer>
