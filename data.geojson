@@ -1,6 +1,10 @@
 {
 "type": "FeatureCollection", 
 "features": [
-{"type": "Feature", "id": 0, "properties": {"NAME": "Eli and Edythe Broad Art Museum", "COMMENT": "talk about stuff here"}, "geometry": { "type": "Point","coordinates": [-84.47685837825675,42.73283945248608] } },
-{"type": "Feature", "id": 1, "properties": {"NAME": "MSU Museum", "COMMENT": "talk about stuff here"}, "geometry": { "type": "Point","coordinates": [-84.4827264732189,42.73082591300017] } }
+{"type": "Feature", "id": 0, "properties": {"NAME": "Eli and Edythe Broad Art Museum", "ADD": "547 E Circle Dr, East Lansing, MI 48824", "TIME":"Thu - Sun 10 am - 5pm \n February 26th - May 15th"}, "geometry": { "type": "Point","coordinates": [-84.47685837825675,42.73283945248608] } },
+{"type": "Feature", "id": 1, "properties": {"NAME": "MSU Main Library", "ADD":"366 W Circle Dr, East Lansing, MI 48824", "TIME":"Sun 10 am - 10 pm \n Mon - Fri 7:30 am - 10 pm  \n Sat 10 am - 6 pm \n February 24th - May 15th"}, "geometry": { "type": "Point","coordinates": [-84.48288370775386, 42.73101565355942] } },
+{"type": "Feature", "id": 2, "properties": {"NAME": "Matrix: The Center for Digital Humanities", "ADD": "Natural Science Building, Fourth Floor, 288 Farm Ln, East Lansing, MI 48823", "TIME":"Mon - Fri 8 am - 5pm \n February 26th - May 15th"}, "geometry": { "type": "Point","coordinates": [-84.47671347093595, 42.73110703087058] } },
+{"type": "Feature", "id": 3, "properties": {"NAME": "Snyder-Phillips Hall, Second floor", "ADD": "362 Bogue St, East Lansing, MI 48825", "TIME":"February 26th - May 15th"}, "geometry": { "type": "Point","coordinates": [-84.47287870166875, 42.730149079300965] } },
+{"type": "Feature", "id": 4, "properties": {"NAME": "MSU African Studes Center", "ADD": "International Center, 427 N Shaw Ln, East Lansing, MI 48824", "TIME":"Mon - Fri 8 am - 5pm \n February 26th - May 15th"}, "geometry": { "type": "Point","coordinates": [-84.48010994637852, 42.72676613716559] } },
+{"type": "Feature", "id": 4, "properties": {"NAME": "MSU Kresge Art Center, First floor", "ADD": "600 Auditorium Rd, East Lansing, MI 48824", "TIME":"February 26th - May 15th"}, "geometry": { "type": "Point","coordinates": [-84.4741218059022, 42.72858780109656] } }
 ]}
